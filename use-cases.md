@@ -9,7 +9,10 @@
 
 **Actori secundari:** Persoanele invitate.
 
-**Cerințe asociate:** FR-04, FR-05, FR-06.
+**Cerințe asociate:** 
+- Crearea grupurilor
+- Invitarea membrilor
+- Accesul la resursele grupului
 
 **Prioritate:** Must Have.
 
@@ -47,7 +50,13 @@
 
 **Actori secundari:** Membrul căruia îi este atribuită sarcina.
 
-**Cerințe asociate:** FR-07, FR-08, FR-09, FR-10, FR-11, FR-12.
+**Cerințe asociate:**
+- Crearea listelor
+- Gestionarea sarcinilor
+- Atribuirea sarcinilor
+- Stabilirea termenelor-limită
+- Actualizarea stării sarcinilor
+- Sincronizarea listelor
 
 **Prioritate:** Must Have.
 
@@ -88,7 +97,13 @@
 
 **Actori secundari:** Ceilalți membri ai grupului.
 
-**Cerințe asociate:** FR-13, FR-14, FR-15, FR-16.
+**Cerințe asociate:**
+- Înregistrarea cheltuielilor
+- Stabilirea modalității de împărțire
+- Calcularea balanțelor financiare
+- Vizualizarea istoricului cheltuielilor
+- Corectitudinea calculelor financiare
+- Integritatea datelor
 
 **Prioritate:** Must Have.
 
@@ -132,7 +147,14 @@
 
 **Actori secundari:** Ceilalți membri ai grupului.
 
-**Cerințe asociate:** FR-17, FR-18, FR-19, FR-20.
+**Cerințe asociate:**
+- Încărcarea documentelor
+- Organizarea documentelor
+- Descărcarea documentelor
+- Gestionarea datelor de expirare
+- Validarea fișierelor încărcate
+- Limita de stocare a documentelor
+- Izolarea datelor grupurilor
 
 **Prioritate:** Should Have.
 
@@ -174,7 +196,11 @@
 
 **Actori secundari:** Ceilalți membri ai grupului.
 
-**Cerințe asociate:** FR-21, FR-22, FR-23.
+**Cerințe asociate:**
+- Crearea evenimentelor
+- Gestionarea evenimentelor
+- Vizualizarea calendarului comun
+- Integritatea datelor
 
 **Prioritate:** Should Have.
 
