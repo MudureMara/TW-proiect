@@ -200,4 +200,3 @@ Următoarele funcționalități nu fac parte din versiunea actuală a proiectulu
 - Sistem de mesagerie instant între utilizatori.
 - Apeluri audio sau video.
 - Sincronizarea completă a modificărilor realizate în modul offline.
-
