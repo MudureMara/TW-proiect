@@ -1,1 +1,0 @@
-Poze pagini aplicație.
