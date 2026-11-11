@@ -1,7 +1,17 @@
-# TW-proiect
-
-
 # Planify – Platformă web pentru organizarea și gestionarea activităților personale și de grup
+
+## Cuprins
+1. [Cerinte functionale & nefunctionale](docs/requirements.md)
+
+2. [Scenarii de utilizare](docs/use-cases.md)
+
+3. [Mock-ups ecrane principale](docs/wireframes)
+
+4. [Arhitectura sistemului](docs/architecture.md)
+   
+5. [Date si rute API](docs/data-model.md)
+
+6. [Plan de implementare](docs/implementation-plan.md)
 
 ## 1. Descrierea proiectului
 
@@ -64,29 +74,23 @@ Aplicația se adresează următoarelor categorii de utilizatori:
 
 ## 6. Tehnologii alese
 
-**Frontend:**
-- HTML
-- CSS
-- JavaScript
+**Frontend:** HTML, CSS, JavaScript
 
-**Backend:**
-- Node.js
-- Express.js
+**Backend:** Node.js, Express.js
 
-**Comunicare în timp real:**
-- Socket.IO / WebSocket
+**Comunicare în timp real:** Socket.IO / WebSocket
 
 **Persistența datelor:**
 - PostgreSQL pentru stocarea datelor structurate.
 - MinIO pentru stocarea documentelor și fișierelor.
 
+**Notificări și comunicare externă:** Nodemailer, pentru trimiterea invitațiilor de grup prin e-mail
+
 **Autentificare și securitate:**
 - JWT pentru autentificarea utilizatorilor.
 - bcrypt pentru stocarea securizată a parolelor.
 
-**Versionare și colaborare:**
-- Git
-- GitHub
+**Versionare și colaborare:** Git, GitHub
 
 ## 7. Membrii echipei și responsabilități
 
@@ -141,6 +145,7 @@ Documentația suplimentară a proiectului este organizată în directorul `docs/
 - `requirements.md` – cerințele funcționale și nefuncționale ale aplicației.
 - `use-cases.md` – scenariile de utilizare ale aplicației.
 - `wireframes/` – schițele interfețelor și fluxurile de navigare.
+- `architecture/md` - arhitectura de sistem a aplicatiei.
 - `data-model.md` – modelul preliminar de date și endpoint-urile API.
 - `implementation-plan.md` – tehnologiile, strategia de versionare și planul de implementare.
 
@@ -151,8 +156,3 @@ Documentația suplimentară a proiectului este organizată în directorul `docs/
 - Corectitudinea balanțelor financiare trebuie verificată prin teste.
 - Accesul la documente și informații financiare trebuie restricționat membrilor autorizați.
 - Fișierele încărcate vor avea o limită de 10 MB per fișier, iar fiecare grup va avea o cotă de stocare stabilită.
-
-## 11. Stadiul proiectului
-
-Proiectul se află în etapa de analiză și proiectare. Dezvoltarea va începe cu funcționalitățile obligatorii, urmând ca funcționalitățile suplimentare să fie implementate în etapele ulterioare, în funcție de timpul disponibil.
-
