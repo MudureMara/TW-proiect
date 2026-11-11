@@ -94,36 +94,11 @@ Aplicația se adresează următoarelor categorii de utilizatori:
 
 ## 7. Membrii echipei și responsabilități
 
-Proiectul este realizat de o echipă formată din doi studenți. Responsabilitățile sunt distribuite astfel încât fiecare membru să contribuie la dezvoltarea bazei de date, având totodată responsabilități principale distincte în dezvoltarea frontend-ului și backend-ului.
-
-### Mudure Mara – Frontend și baza de date
-
-- Dezvoltarea interfeței web folosind HTML, CSS și JavaScript.
-- Implementarea paginilor de autentificare și înregistrare.
-- Dezvoltarea interfeței pentru crearea și gestionarea grupurilor.
-- Implementarea interfeței pentru listele și sarcinile partajate.
-- Dezvoltarea interfeței pentru gestionarea cheltuielilor și vizualizarea balanțelor financiare.
-- Realizarea interfeței calendarului comun și a secțiunii de documente.
-- Integrarea frontend-ului cu API-urile backend.
-- Participarea la proiectarea structurii bazei de date PostgreSQL.
-- Implementarea și testarea interogărilor necesare funcționalităților aplicației.
-
-### Macovei Oana – Backend și baza de date
-
-- Dezvoltarea serverului folosind Node.js și Express.js.
-- Implementarea autentificării și autorizării utilizatorilor.
-- Crearea API-urilor pentru gestionarea utilizatorilor, grupurilor și sarcinilor.
-- Implementarea logicii de gestionare a cheltuielilor și calculare a balanțelor financiare.
-- Configurarea comunicării în timp real folosind Socket.IO.
-- Integrarea MinIO pentru încărcarea și stocarea documentelor.
-- Participarea la proiectarea și implementarea bazei de date PostgreSQL.
-- Dezvoltarea și testarea interogărilor și relațiilor dintre entitățile bazei de date.
-- Implementarea validărilor și verificărilor necesare pentru protejarea datelor.
+Proiectul este realizat de o echipă formată din doi studenți. Responsabilitățile sunt distribuite astfel încât fiecare membru să contribuie la dezvoltarea bazei de date, având totodată responsabilități principale distincte în dezvoltarea frontend-ului și backend-ului. Mudure Mara se va ocupa mai mult de Frontend si imbunatatirea UX, iar Macovei Oana de gestionarea Backend si configurarea serviciului MinIO. Baza de date va fi actualizata pe parcurs de ambii membrii.
 
 ### Responsabilități comune
 
-Ambii studenți vor colabora la:
-
+Ambele studente vor colabora la:
 - Analiza cerințelor și proiectarea arhitecturii aplicației.
 - Proiectarea modelului de date și stabilirea relațiilor dintre entități.
 - Implementarea și optimizarea bazei de date PostgreSQL.
@@ -131,28 +106,3 @@ Ambii studenți vor colabora la:
 - Testarea funcționalităților și verificarea integrității datelor.
 - Gestionarea repository-ului GitHub și versionarea codului.
 - Realizarea documentației și pregătirea prezentării finale.
-
-## 8. Domeniul proiectului
-
-Proiectul include gestionarea utilizatorilor și grupurilor, listele de sarcini partajate, evidența cheltuielilor, calcularea balanțelor financiare, calendarul comun și gestionarea documentelor.
-
-Nu sunt incluse procesarea plăților, transferurile bancare, scanarea automată a bonurilor, sistemele de chat sau apelurile audio/video.
-
-## 9. Structura documentației
-
-Documentația suplimentară a proiectului este organizată în directorul `docs/`:
-
-- `requirements.md` – cerințele funcționale și nefuncționale ale aplicației.
-- `use-cases.md` – scenariile de utilizare ale aplicației.
-- `wireframes/` – schițele interfețelor și fluxurile de navigare.
-- `architecture/md` - arhitectura de sistem a aplicatiei.
-- `data-model.md` – modelul preliminar de date și endpoint-urile API.
-- `implementation-plan.md` – tehnologiile, strategia de versionare și planul de implementare.
-
-## 10. Limitări și riscuri
-
-- Sincronizarea modificărilor realizate simultan de mai mulți utilizatori poate genera conflicte.
-- Aplicația necesită conexiune la internet și nu va suporta inițial sincronizarea completă offline.
-- Corectitudinea balanțelor financiare trebuie verificată prin teste.
-- Accesul la documente și informații financiare trebuie restricționat membrilor autorizați.
-- Fișierele încărcate vor avea o limită de 10 MB per fișier, iar fiecare grup va avea o cotă de stocare stabilită.
