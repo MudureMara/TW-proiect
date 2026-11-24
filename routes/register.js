@@ -2,6 +2,7 @@ const express = require('express');
 const bcrypt = require('bcrypt');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
+const path = require('path');
 const { error } = require('console');
 const router = express.Router();
 
