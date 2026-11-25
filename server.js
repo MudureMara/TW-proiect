@@ -13,6 +13,8 @@ const registerRoutes = require('./routes/register');
 app.use('/auth', registerRoutes);
 const groupsRoutes = require('./routes/groups');
 app.use('/groups', groupsRoutes);
+const tasksRoutes = require('./routes/tasks');
+app.use('/tasks', tasksRoutes);
 
 app.listen(port, () => {
     console.log('Server running!');
